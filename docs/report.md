@@ -1,6 +1,6 @@
 # CampusPulse — Project Report
 
-**Author:** Ravi · **Target:** MARVEL R&D Lab membership · **Domain:** IoT / Environmental Sensing
+**Author:** Ravi · **Domain:** IoT / Environmental Sensing
 
 ## 1. Abstract
 
@@ -8,14 +8,14 @@ CampusPulse is a low-cost IoT environmental monitoring node built on the ESP32 m
 
 ## 2. Motivation
 
-Campus air quality and thermal comfort directly affect student health and productivity, yet most institutions lack granular, real-time environmental data. A network of cheap, battery-powered sensing nodes can identify pollution hotspots (canteens, labs, high-traffic roads) and provide evidence for infrastructural decisions — a natural fit for an R&D lab interested in applied IoT research.
+Campus air quality and thermal comfort directly affect student health and productivity, yet most institutions lack granular, real-time environmental data. A network of cheap, battery-powered sensing nodes can identify pollution hotspots (canteens, labs, high-traffic roads) and provide evidence for infrastructural decisions.
 
 ## 3. Objectives
 
 1. Design and build a working IoT sensor node using off-the-shelf components.
 2. Stream live multi-parameter environmental data to a cloud platform.
 3. Implement local alerting via thresholds.
-4. Document the system so it is reproducible by other lab members.
+4. Document the system so it is reproducible by others.
 
 ## 4. System Architecture
 
