@@ -1,6 +1,6 @@
 /*
  * CampusPulse — Smart Campus Environment Monitoring Node
- * Author : Ravi (ugruravi-ops) — for MARVEL R&D Lab membership project
+ * Author : Ravi (ugruravi-ops)
  * Board  : ESP32 DevKit v1
  * Sensors: DHT11 (temp/humidity), MQ-135 (air quality), KY-037 (noise)
  * Cloud  : ThingSpeak (HTTP REST API)
@@ -89,7 +89,7 @@ void loop() {
     }
 
     if (alert) {
-      Serial.println("!! ALERT: threshold exceeded — poor environment detected");
+      Serial.println("!! ALERT: threshold exceeded - poor environment detected");
       for (int i = 0; i < 3; i++) { digitalWrite(LED_RED, HIGH); delay(200); digitalWrite(LED_RED, LOW); delay(200); }
     } else {
       digitalWrite(LED_GREEN, HIGH); delay(500); digitalWrite(LED_GREEN, LOW);
