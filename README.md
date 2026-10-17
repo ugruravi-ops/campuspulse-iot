@@ -1,7 +1,6 @@
 # 📡 CampusPulse — Smart Campus Environment Monitoring Node
 
-An ESP32-based IoT project that continuously monitors **air quality, temperature, humidity, and noise** at a campus location and streams live data to a cloud dashboard. Built as a membership project for **MARVEL R&D Lab**.
-
+An ESP32-based IoT project that continuously monitors **air quality, temperature, humidity, and noise** at a campus location and streams live data to a cloud dashboard.
 > 💡 **What makes this a lab-worthy project:** end-to-end IoT pipeline — sensing → embedded firmware → Wi-Fi networking → cloud REST API → visualization — all under ₹1,200 in parts, fully documented and reproducible.
 
 ## 🔍 Features
@@ -52,6 +51,4 @@ KY-037 ── GPIO35 ┘                (green/red LED alerts)    (4 fields)    
 
 Embedded C/C++ · ADC & digital sensor interfacing · Wi-Fi networking · REST APIs · cloud IoT platforms · threshold-based control · technical writing
 
-## 🤝 Acknowledgements
 
-Built as a membership application project for **MARVEL R&D Lab**. Special thanks to open-source communities behind Arduino, Espressif (ESP32 Arduino core), and Adafruit sensor libraries.
