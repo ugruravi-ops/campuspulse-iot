@@ -1,0 +1,29 @@
+# Arduino IDE build artifacts
+*.hex
+*.elf
+*.bin
+build/
+*.o
+*.d
+*.a
+
+# Arduino IDE temp/library clutter
+arduino_build_*/
+arduino_cache_*/
+libraries/
+Arduino/libraries/
+
+# Secrets — never commit real credentials
+secrets.h
+config.h
+.env
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor clutter
+*.swp
+.vscode/
+.idea/
